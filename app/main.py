@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello by": "HyperX"}
+    return {"Hello": "HyperX"}
